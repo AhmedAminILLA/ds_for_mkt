@@ -30,11 +30,35 @@
                        >>conversion rate: 
                                 (percentage of leads that are converted into active customers)
                                  Conversion rate = No. of paying Customers/ Number of leads
-                        
+-----------------------------------------------------------------------------------------------------------------------
+
+Summary
+In this chapter, we have discussed how to use descriptive analysis for
+reporting and analytics on the progress and performances of marketing
+efforts. We have discussed various KPIs that are often used in marketing to
+track the progress of marketing campaigns. We have learned how important
+it is to look at how much sales revenue each marketing strategy
+generates. When analyzing the sales revenue metrics, we have seen that it is
+important to approach it from different angles. You might want to look at
+not only the aggregate sales revenue, but also time-series (monthly,
+quarterly, or yearly) sales revenue. You might also want to look at sales
+attributed to each individual marketing campaigns and how much revenue
+each campaign generated for your company. We have also discussed
+CPA metrics, with which you can tell the cost-effectiveness of your
+marketing strategies. We have learned various metrics to analyze for digital
+marketing channels as well, such as CTR, lead ratio, and conversion rates.
+As we have seen and experimented in the Python and R exercises, we can
+go multiple levels deeper into these KPI metrics.
+In the next chapter, we are going to learn how we can apply data science
+and machine learning techniques for explanatory analysis. More
+specifically, we will discuss how we can use regression analysis and models
+to understand the drivers behind marketing engagement. We will also cover
+how we can interpret the regression analysis results in the following
+chapter.
                                
                                          
 
-                              
+
 
                           
                    

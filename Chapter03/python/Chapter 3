@@ -1,0 +1,18 @@
+*Drivers behind Marketing Engagement*
+         (customer engagement with marketing efforts are important)
+          can be measured by:  -ratio of marketing emails opened
+                               -amount of website visits from ind. customers
+                               -Goog Mkt. cmpns draws engagement, 
+                                bad ones negativley impact your business(spam, unsubscribe)
+                                
+          **Explanatory analysis and regression analysis**
+                         (Before we used Descriptive analysis now we will use explanatory analysis)
+                         (We will use linear regression in this explanatory context, analyze what 
+                          attributes of the customer base are highly correlated with 
+                          higher conversion rates and item purchases)
+                          ( we estimate the output variables via linear combinations of the features)
+                          Y = a + b1x1 + b2x2 +b3x3 + b4x4 + ... 
+                          (In this chapter, we will discuss how we can use logistic regression models, 
+                          to understand what drives higher customer engagement)
+                          
+                         
