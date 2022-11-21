@@ -1,0 +1,220 @@
+**** Data Science and Marketing
+
+>> marketing data science is a relatively new field and the amount
+   of resources available for education and references lags behind the
+   momentum although the data is increasing substantially. 
+   There a lot of use cases of DS in marketing this book cover the most common
+   
+---Trends in marketing 
+        (The applications of data science in marketing range from building insightful
+        reports and dashboards to utilizing complicated machine learning algorithms
+        to predict customer behaviors or engage customers with the products and
+        contents)
+
+        >>Rising importance of digital marketing
+
+         >>Marketing analytics:                > Marketing analytics is a way of monitoring and
+                                                 analyzing the performances of marketing efforts
+                                               >. In e-commerce businesses, you can
+                                                analyze and visualize the different types and segments of customers and
+                                                which type of customers drives the revenue for your business the most
+                                                with marketing analytics
+                                               >In media businesses, with marketing
+                                                analytics, you can analyze which content attracts the users the most and
+                                                what the trends in keyword searches are
+                                               >Marketing analytics also helps
+                                                you to understand the cost-effectiveness of your marketing campaigns.
+                                                By looking into the return on investment (ROI), you can further
+                                                optimize your future marketing campaigns (ROI VS CPA)
+
+        >>Personalized and target marketing: > individual-level (personalized) target marketing.
+                                             > utilizing ML algorithms to learn from the
+                                                user history data and apply specialized marketing
+                                                strategies to small subgroups 
+                                                which results in dec CPA and inc ROI
+                                              >In retail businesses, ML is used to predict which customers are more
+                                                likely to purchase  which items Using these predictions, to customize accordingly
+                                                the marketing messages to customers
+                                               > Many retail and media businesses use target marketing to drive higher engagement
+                                                 to yield higher ROI
+
+---Applications of data science in marketing
+
+   --Descriptive versus explanatory versus predictive analyses
+                                              
+                                               >Descriptive analysis: This is conducted to understand and describe the
+                                                given dataset better. The purpose of this analysis is to quantitatively
+                                                and statistically summarize the information that the data contains. For
+                                                example, if you are conducting a descriptive analysis on user purchase
+                                                history data, you will be answering such questions as What is the best
+                                                selling item? What were the monthly sales like in the past year? 
+                                                
+                                                >Explanatory analysis: When the purpose of descriptive analysis is to
+                                                answer the what and how from the data, explanatory analysis is to
+                                                answer why using the data. This type of analysis is typically conducted
+                                                when you have a specific question that you want to answer. As an
+                                                example for e-commerce businesses, if you want to analyze what
+                                                drives your users to make purchases?
+                                                
+                                                >Predictive analysis: This analysis is conducted when there is a
+                                                specific future event that you would like to predict. The purpose of this
+                                                analysis is to build machine learning models that learn from the
+                                                historical data and make predictions about events that will happen in
+                                                the future. Similar to the previous examples of e-commerce and
+                                                purchase history data, one of the questions you can answer from this
+                                                type of analysis may be, Which user is the most likely to make a
+                                                purchase within the next seven days?
+                                                
+                                               
+                                             
+
+  --Types of learning algorithms
+                                              >Supervised learning algorithms: These algorithms are used when the
+                                                prediction target or outcome is known. For example, if we want to use
+                                                machine learning to predict who will make purchases in the next few
+                                                days, then we will use supervised learning algorithms. Here, the
+                                                prediction target or outcome is whether this person made a purchase
+                                                within the given time window or not. Based on the historical purchase
+                                                data, we will need to build features, which describe each data point,
+                                                such as a user's age, address, last purchase date, and then supervised
+                                                learning algorithms will learn from this data how to map these features
+                                                to the prediction target or outcome
+                                                
+                                               > Unsupervised learning algorithms: Unlike supervised learning
+                                                algorithms, unsupervised learning algorithms are used when we do not
+                                                have a specific prediction target or outcome. This type of machine
+                                                learning algorithm is frequently used in clustering and
+                                                recommendation systems. As an example, you can use unsupervised
+                                                learning algorithms to cluster your customer base into different
+                                                subgroups or segments, based on their behaviors. In this case, we do
+                                                not have a specific target or outcome that we want to predict. We are
+                                                just grouping similar customers together into different segments.
+                                                
+                                                >Reinforcement learning algorithms: These algorithms are used when
+                                                we want the model to continuously learn and train itself without prior
+                                                knowledge or experience. In the case of reinforcement learning, the
+                                                model learns how to make predictions after lots of trials and errors.
+                                                One example of the application of reinforcement learning in marketing
+                                                is when there are multiple marketing strategies you'd like to test and
+                                                choose the one that works the best. In this case, you can run a
+                                                reinforcement learning algorithm, where it randomly picks one
+                                                strategy at a time and gets rewarded when a positive outcome occurs.
+                                                After multiple iterations of trials and errors, the reinforcement learning
+                                                model will have learned to choose the best marketing strategy, based
+                                                on the total rewards each marketing strategies have earned.
+    
+   --Data science workflow
+
+                                               >1. Problem definition: 
+                                                    (descriptive versus explanatory versus predictive) 
+                                                    (supervised versus unsupervised versus
+                                                    reinforcement learning) 
+                                               
+                                                 >2.Data collection:
+                                                  (third-party vendors, scrape,publicly available data. In some cases,internal systems) 
+                                                  (can be trivial or it can also be tedious)
+                                               
+                                                >3.Data preparation:  
+                                                 (transofrm and unify data formats, set proper straucture, tabulate the data)
+                                                 
+                                                >4. Data analysis: When you are done with the data preparation step, then
+                                                    you will have to start looking into the data. In the data analysis step,
+                                                    typically, descriptive analyses are conducted to compute some
+                                                    descriptive summary statistics and build visual plots to better
+                                                    understand the data. Quite often, you can find some recognizable
+                                                    patterns and draw some insight from data during this step. You may
+                                                    also be able to find any anomalies in the data, such as missing values,
+                                                    corrupted data, or duplicate records, from this step.
+                                                 
+                                                 >5.Feature engineering: Feature engineering is the most important part
+                                                    of data science and machine learning, as it directly affects the
+                                                    performance of predictive models. Feature engineering requires
+                                                    expertise and good domain knowledge of the data, as it requires you to
+                                                    transform the raw data into more informative data for your algorithms
+                                                    to learn from. One good example of feature engineering is
+                                                    transforming text data into numerical data. As the machine learning
+                                                    algorithms can only learn from numerical data, you will need to come
+                                                    up with an idea and strategy to translate textual data into numerical
+                                                    data. As we work through this book and as we build machine learning
+                                                    models, we will discuss and experiment with various feature
+                                                    engineering techniques.
+                                                  
+                                                  >6. Model building: Once you are done with the feature engineering step,
+                                                    then you can start training and testing your machine learning models.
+                                                    In this step, you can experiment with various learning algorithms to
+                                                    figure out which one works the best for your use case. One thing to
+                                                    keep in mind in this step is the validation metrics. It is important to
+                                                    have a good measure of your model performance, as machine learning
+                                                    algorithms will try to optimize on the given performance measure. As
+                                                    we start building machine learning models in the following chapters,
+                                                    we will discuss more in detail regarding what metrics to use depending
+                                                    on the type of problems that we are working on.
+                                                    
+                                                  
+--------------------------------------------------------------------------------------------------------------------------------
+
+Follow in the notebook where we implement A simple logistic regression model in Python
+
+Logistic regression is an example of supervised learning. 
+It is used to calculate or predict the probability of a binary (yes/no) event occurring 
+
+
+Summary
+
+In this chapter, we discussed the overall trends in marketing and learned the
+rising importance of data science and machine learning in the marketing
+industry. As the amount of data increases and as we observe the benefits of
+utilizing data science and machine learning for marketing, companies of all
+sizes are investing in building more data-driven and quantitative marketing
+strategies.
+We also learned different types of analysis methods, especially the three
+types of analysis that we will be using frequently in this book—descriptive,
+explanatory, and predictive —and different use cases of these analyses. In
+this chapter, we covered different types of machine learning algorithms, as
+well as the typical workflow in data science. Lastly, we spent some time
+setting up our development environments in Python and R and testing our
+environment setup by building a simple logistic regression model.
+In the next chapter, we are going to go over some of the key performance
+indicators (KPIs) and how to visualize these key metrics. We will learn
+how to compute and build visual plots of these KPIs in Python, using
+different packages, such as pandas, numpy, and matplotlib. For those of you who
+are following the exercises in this book using the R language, we will also
+discuss how to use R to compute and plot these KPIs in R, using various
+statistical and mathematical functions in R and the ggplot2 package for
+visualizations.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
